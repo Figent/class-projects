@@ -1,0 +1,8 @@
+img {
+    position: absolute;
+    background-color: rgba(26, 119, 212, 0);
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+  }
