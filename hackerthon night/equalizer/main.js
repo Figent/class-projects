@@ -9,7 +9,7 @@ $(document).ready(function(){
         for(i=1; i<=6; i++){
             var random = Math.floor((Math.random()*6)+1);
             console.log(random);
-                if(i == random){
+                if(i == random){/var/CODE/class-projects/hackerthon night/equalizer/index.html
                     setInterval(showColor(random, 1, "blue"),100);
                     setInterval(showColor(random, 2, "red"),100);
                     setInterval(showColor(random, 3, "blue"),100);
@@ -25,7 +25,7 @@ $(document).ready(function(){
                     setInterval(showColor(random, 6, "blue"),100);
                 };
         };
-    },300);
+    },100);
     
     
    

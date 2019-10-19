@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>stopwatch js</title>
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="main.js" type="text/javascript" ></script>
+        
+        <link rel="stylesheet" href="./css/style.css">
+
+        
+
+    </head>
+
+    <body>
+       <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                        <div class="input">
+
+                                <input type="number" id="num" min="0">
+                    
+                                <select id="measure">
+                    
+                                    <option value="0">Select Unit</option>
+                    
+                                    <option value="s">Seconds</option>
+                    
+                                    <option value="m">Minutes</option>
+                    
+                                    <option value="h">Hours</option>
+                    
+                                </select>
+                    
+                            </div>
+                    
+                            
+                    
+                            <div class="buttons-wrapper">
+                    
+                                <button id="start-cronometer">Start Stopwatch</button>
+                    
+                                <button id="start-countdown">Start Countdown</button>
+                    
+                            </div>
+                    
+                            
+                    
+                            <div class="clock-wrapper">
+                    
+                                <span class="hours">00</span>
+                    
+                                <span class="dots">:</span>
+                    
+                                <span class="minutes">00</span>
+                    
+                                <span class="dots">:</span>
+                    
+                                <span class="seconds">00</span>
+                    
+                            </div>
+                    
+                            
+                            <div class="buttons-wrapper">
+                    
+                                <button id="resume-timer">Resume Timer</button>
+                    
+                                <button id="stop-timer">Stop Timer</button>
+                    
+                                <button id="reset-timer">Reset Timer</button>
+                    
+                            </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+        
+    </body>
+</html>
